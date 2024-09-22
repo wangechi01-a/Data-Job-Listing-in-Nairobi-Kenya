@@ -3,9 +3,8 @@
 This code is a Python script that uses Selenium to scrape Data jobs in Nairobi, Kenya from a MyJobMag webpage, saves the details to a CSV file, and sends me an email with the job listings. Here's a detailed explanation of each part:
 
 ## Overview of the Code Structure
-Setup the Chrome WebDriver:
-
-1. setup_driver function: Initializes the Selenium Chrome WebDriver and maximizes the browser window.
+1. Setup the Chrome WebDriver:
+setup_driver function: Initializes the Selenium Chrome WebDriver and maximizes the browser window.
 
 2. Scrape Job Details:
 scrape_job_details function: Visits the specified URL, locates job cards, extracts job titles, URLs, and posting dates, and compiles this information into a structured format (list of dictionaries).
